@@ -1,6 +1,6 @@
 import pandas as pd
-import plotly as plt
 import streamlit as st
+import plotly.express as px
 import plotly.graph_objects as go
 
 df = pd.read_csv('vehicles_us.csv')
