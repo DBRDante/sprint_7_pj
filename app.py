@@ -20,5 +20,3 @@ if st.checkbox('Mostrar gráfico de dispersión: Precio vs Odómetro'):
     fig_scatter = px.scatter(df, x='odometer', y='price',
                              title='Precio vs Odómetro')
     st.plotly_chart(fig_scatter, use_container_width=True)
-
-streamlit run app.py
